@@ -1,0 +1,68 @@
+html, body {
+  background-image: url('http://i.imgur.com/SZAUPah.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+
+}
+
+#main {
+  overflow:auto;
+  padding-bottom: 40px; /* must be same height as the footer */
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.brand {
+  font-family: 'Varela', sans-serif;
+}
+
+.green {
+  color: #00FF00;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.btn-success {
+  float: right;
+  margin: .25em;
+}
+
+.btn-danger {
+  float: right;
+  margin: .25em;
+}
+
+.format_box {
+  border: 1px solid gray;
+  border-radius: 15px;
+  width: 40%;
+  padding: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: center;
+  min-width: 250px;
+  margin: 0px auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: 'Arial, Helvetica', sans-serif;
+  word-wrap: break-word;
+}
+
+.footer {
+  position: relative;
+  margin-top: -40px;  /*negative value of footer height*/
+  height: 40px;
+  clear:both;
+  background-color: black;
+}
+
